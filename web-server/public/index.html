@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        IronWolf
+    </title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="content-scripte-type" content="text/javascript" />
+    <meta name="author" content="netease" />
+    <meta name="version" content="1.0" />
+    <meta name="keywords" content="wolf" />
+    <link type="text/css" rel="stylesheet" href="css/base.css" />
+    <link type="text/css" rel="stylesheet" href="css/wolf.css" />
+    <script src="js/lib/socket.io.js"></script>
+    <script src="js/lib/pomeloclient.js"></script>
+    <script src="js/lib/jquery-3.1.0.min.js"></script>
+    <script src="js/wolf.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="login-layer">
+            <div>
+                <label for="name" class="f-l">输入昵称：</label>
+                <input type="text" name="name" class="f-l" id="login-username" />
+                <label for="name" class="f-l">输入房间：</label>
+                <input type="text" name="name" class="f-l" id="login-room" />
+                <button class="f-l">确认</button>
+            </div>
+        </div>
+        <div id="row-top">
+            <div id="l-t" class="f-l"></div>
+            <div class="player f-l" id="p1">1</div>
+            <div class="player f-l" id="p2">2</div>
+            <div class="player f-l" id="p3">3</div>
+        </div>
+        <div id="row-center">
+            <div id="c-l" class="f-l">
+                <div>
+                    <div class="player" id="p4">4</div>
+                </div>
+                <div>
+                    <div class="player" id="p5">5</div>
+                </div>
+                <div>
+                    <div class="player" id="p6">6</div>
+                </div>
+            </div>
+            <div id="c-r" class="f-r">
+                <div>
+                    <div class="player" id="p10">10</div>
+                </div>
+                <div>
+                    <div class="player" id="p11">11</div>
+                </div>
+                <div>
+                    <div class="player" id="p12">12</div>
+                </div>
+            </div>
+        </div>
+        <div id="row-bottom">
+            <div id="l-b" class="f-l"></div>
+            <div class="player f-l" id="p7">7</div>
+            <div class="player f-l" id="p8">8</div>
+            <div class="player f-l" id="p9">9</div>
+        </div>
+    </div>
+</body>
+
+</html>
