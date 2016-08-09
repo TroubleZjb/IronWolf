@@ -53,7 +53,6 @@ WolfRemote.prototype.add = function(uid, sid, name, flag, cb) {
             }
 
             cb(self.get(name, flag));
-
         })
     })
 };
@@ -110,6 +109,7 @@ WolfRemote.prototype.kick = function(uid, sid, name) {
     r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8')
     r = JSON.parse(r);
     if (!!r[name][username]) {
+        param.user = param.user + "*" + r[name][username]["position"]
         delete r[name][username];
         console.log(r)
     }
@@ -124,7 +124,6 @@ WolfRemote.prototype.sit = function(uid, sid, name, flag, position, cb) {
     var username = uid.split('*')[0];
     var leave = null;
     var r;
-    console.log("get")
     r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8')
     r = JSON.parse(r);
     if (!!r[name][username]) { leave = r[name][username]["position"] }

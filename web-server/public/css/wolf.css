@@ -15,12 +15,13 @@ body {
 
 .container {
     width: 760px;
-    height: 760px;
+    height: 800px;
     border: 3px solid #aaa;
     border-radius: 5px;
     margin: 0 auto;
     position: relative;
     background: url(../image/background.jpg) no-repeat center center /auto 100%;
+    padding-top: 40px;
 }
 
 .f-r {
@@ -46,6 +47,7 @@ body {
     height: 100%;
     display: none;
     z-index: 9999999;
+    top: 0;
 }
 
 #login-layer>div {
@@ -121,12 +123,14 @@ body {
     font-size: 14px;
     text-shadow: 0 0 3px #000;
     color: #fff;
+    box-shadow: none;
 }
 
 .player-empty:hover {
     font-size: 16px;
     text-shadow: 0 0 3px #f00;
     color: #FFFAE0;
+    box-shadow: 0 0 10px #fff;
 }
 
 .player-empty>a {

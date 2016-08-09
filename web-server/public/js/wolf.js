@@ -73,7 +73,7 @@ function queryEntry(uid, callback) {
 };
 //
 function playerSit(player, position, leave) {
-    console.log("sit")
+
     var p_box = "p" + position;
     var leave_box = "p" + leave;
     $("#" + p_box).find(".player-number").text(p_box + ":" + player);
@@ -96,6 +96,7 @@ function playerSit(player, position, leave) {
             position: position
         }, function() {})
     })
+    console.log(player, position, leave)
 }
 
 function load() {
@@ -131,6 +132,7 @@ $(document).ready(function() {
     //update user list
     pomelo.on('onAdd', function(data) {
         var user = data.user;
+        console.log(data)
         tip('online', user);
         addUser(user);
     });
@@ -138,8 +140,8 @@ $(document).ready(function() {
     //update user list
     pomelo.on('onLeave', function(data) {
         var user = data.user;
-        tip('offline', user);
-        removeUser(user);
+        console.log(data)
+        playerSit(user.split('*')[0], null, user.split('*')[1])
     });
 
     //when sit
@@ -148,8 +150,6 @@ $(document).ready(function() {
         var position = data.position;
         var leave = data.leave;
         playerSit(user, position, leave);
-        console.log("sitstie")
-
     });
 
     //handle disconect message, occours when the client is disconnect with servers
