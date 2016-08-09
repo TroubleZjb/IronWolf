@@ -10,6 +10,47 @@ var LENGTH_ERROR = "Name/Channel is too long or too short. 20 character max.";
 var NAME_ERROR = "Bad character in Name/Channel. Can only have letters, numbers, Chinese characters, and '_'";
 var DUPLICATE_ERROR = "Please change your name to login.";
 
+util = {
+    urlRE: /https?:\/\/([-\w\.]+)+(:\d+)?(\/([^\s]*(\?\S+)?)?)?/g,
+    //  html sanitizer
+    toStaticHTML: function(inputHtml) {
+        inputHtml = inputHtml.toString();
+        return inputHtml.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    },
+    //pads n with zeros on the left,
+    //digits is minimum length of output
+    //zeroPad(3, 5); returns "005"
+    //zeroPad(2, 500); returns "500"
+    zeroPad: function(digits, n) {
+        n = n.toString();
+        while (n.length < digits)
+            n = '0' + n;
+        return n;
+    },
+    //it is almost 8 o'clock PM here
+    //timeString(new Date); returns "19:49"
+    timeString: function(date) {
+        var minutes = date.getMinutes().toString();
+        var hours = date.getHours().toString();
+        return this.zeroPad(2, hours) + ":" + this.zeroPad(2, minutes);
+    },
+
+    //does the argument only contain whitespace?
+    isBlank: function(text) {
+        var blank = /^\s*$/;
+        return (text.match(blank) !== null);
+    }
+};
+
+// add user in user list
+function addPlayer(player) {
+    var slElement = $(document.createElement("option"));
+    slElement.attr("value", player);
+    slElement.text(player);
+    $("#usersList").append(slElement);
+};
+
+
 // query connector
 function queryEntry(uid, callback) {
     var route = 'gate.gateHandler.queryEntry';
@@ -26,20 +67,59 @@ function queryEntry(uid, callback) {
                 showError(LOGIN_ERROR);
                 return;
             }
-            console.log(data)
             callback(data.host, data.port);
         });
     });
 };
+//
+function playerSit(player, position, leave) {
+    console.log("sit")
+    var p_box = "p" + position;
+    var leave_box = "p" + leave;
+    $("#" + p_box).find(".player-number").text(p_box + ":" + player);
+    $("#" + p_box).removeClass("player-empty");
+    $("#" + p_box).addClass("player-ready");
+    $("#" + p_box + ">a").remove();
+    $("#" + p_box).off("click");
+    $("#" + leave_box).find(".player-number").text(leave_box);
+    $("#" + leave_box).removeClass("player-ready");
+    $("#" + leave_box).addClass("player-empty");
+    var a = document.createElement("a");
+    a.innerHTML = "点击坐下";
+    $("#" + leave_box).append(a);
+    $("#" + leave_box).on("click", function() {
+        var route = "connector.entryHandler.sit";
+        var position = leave;
+        pomelo.request(route, {
+            username: username,
+            rid: rid,
+            position: position
+        }, function() {})
+    })
+}
 
-
+function load() {
+    // 点击坐下
+    var a = document.createElement("a");
+    a.innerHTML = "点击坐下";
+    $(".player").append(a);
+    // 号码
+    for (var i = 0; i < 12; i++) {
+        var num = document.createElement("div")
+        num.setAttribute("class", "player-number");
+        var getId = document.getElementsByClassName("player")[i].getAttribute("id");
+        num.innerHTML = getId;
+        num.setAttribute("id", getId + "-num")
+        var flag = document.getElementsByClassName("player")[i].appendChild(num);
+    }
+}
 
 
 //加载
 $(document).ready(function() {
     //when first time into chat room.
     $("#login-layer").show()
-
+    load();
     // //wait message from the server.
     // pomelo.on('onChat', function(data) {
     //  addMessage(data.from, data.target, data.msg);
@@ -62,17 +142,35 @@ $(document).ready(function() {
         removeUser(user);
     });
 
+    //when sit
+    pomelo.on('onSit', function(data) {
+        var user = data.user;
+        var position = data.position;
+        var leave = data.leave;
+        playerSit(user, position, leave);
+        console.log("sitstie")
+
+    });
 
     //handle disconect message, occours when the client is disconnect with servers
     pomelo.on('disconnect', function(reason) {
         // showLogin();
         console.log("disconnect")
     });
+    $(".player-empty").on("click", function() {
+        var route = "connector.entryHandler.sit";
+        var position = $(this)[0].id.replace("p", "");
+        pomelo.request(route, {
+            username: username,
+            rid: rid,
+            position: position
+        }, function() {})
+    })
 
     //deal with login button click.
     $("#login-layer>div>button").click(function() {
         username = $("#login-username").val();
-        rid = $('#login-room').val();
+        rid = $("#login-room").val();
 
         // if (username.length > 20 || username.length == 0 || rid.length > 20 || rid.length == 0) {
         //     showError(LENGTH_ERROR);
@@ -100,11 +198,10 @@ $(document).ready(function() {
                         showError(DUPLICATE_ERROR);
                         return;
                     }
-                    console.log(data)
-                        // setName();
-                        // setRoom();
-                        // showChat();
-                        // initUserList(data);
+                    $("#login-layer").hide()
+                    for (var i = 0; i < data.users.length; i++) {
+                        playerSit(data.users[i].split('*')[0], data.users[i].split('*')[1], null);
+                    }
                 });
             });
         });

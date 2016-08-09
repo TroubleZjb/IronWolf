@@ -1,0 +1,531 @@
+[2016-08-08 13:42:00.534] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 13:42:00.990] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 13:42:01.004] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 13:42:01.004] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 466 ms
+[2016-08-08 13:42:01.005] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":6168}}
+[2016-08-08 13:42:01.008] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6604}}
+[2016-08-08 13:53:45.965] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 13:53:46.270] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 13:53:46.277] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 13:53:46.277] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 308 ms
+[2016-08-08 13:53:46.278] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"chat-server-1","host":"127.0.0.1","port":6050,"serverType":"chat","pid":8032}}
+[2016-08-08 13:55:57.654] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 13:55:57.970] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 13:55:57.978] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 13:55:57.979] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 317 ms
+[2016-08-08 13:57:10.427] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 13:57:10.726] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 13:57:10.733] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 13:57:10.733] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 302 ms
+[2016-08-08 13:58:14.739] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 13:58:15.017] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 13:58:15.030] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 13:58:15.030] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 284 ms
+[2016-08-08 13:58:15.031] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":7372}}
+[2016-08-08 13:58:15.086] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7928}}
+[2016-08-08 14:06:56.840] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 14:06:57.133] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 14:06:57.141] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 14:06:57.141] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 297 ms
+[2016-08-08 14:11:35.210] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 14:11:35.522] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 14:11:35.529] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 14:11:35.530] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 316 ms
+[2016-08-08 18:12:24.479] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:12:24.765] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:12:24.773] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:12:24.773] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 290 ms
+[2016-08-08 18:15:26.650] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:15:26.943] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:15:26.951] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:15:26.951] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 297 ms
+[2016-08-08 18:16:00.975] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:16:01.253] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:16:01.266] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:16:01.266] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 287 ms
+[2016-08-08 18:16:01.269] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":10076}}
+[2016-08-08 18:16:01.274] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":7932}}
+[2016-08-08 18:16:01.313] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9464}}
+[2016-08-08 18:17:56.614] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:17:56.916] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:17:56.925] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:17:56.925] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 307 ms
+[2016-08-08 18:17:56.927] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":7568}}
+[2016-08-08 18:17:56.931] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9616}}
+[2016-08-08 18:17:56.933] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8932}}
+[2016-08-08 18:19:05.135] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:19:05.438] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:19:05.447] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:19:05.447] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 308 ms
+[2016-08-08 18:19:05.460] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5172}}
+[2016-08-08 18:19:36.937] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:19:37.225] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:19:37.232] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:19:37.232] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 291 ms
+[2016-08-08 18:20:58.432] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:20:58.726] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:20:58.733] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:20:58.733] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 297 ms
+[2016-08-08 18:22:11.613] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:22:11.896] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:22:11.903] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:22:11.903] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 286 ms
+[2016-08-08 18:22:47.185] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:22:47.500] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:22:47.507] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:22:47.507] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 317 ms
+[2016-08-08 18:25:07.624] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:25:07.918] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:25:07.925] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:25:07.926] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 298 ms
+[2016-08-08 18:25:42.580] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:25:42.885] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:25:42.892] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:25:42.893] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 309 ms
+[2016-08-08 18:26:22.452] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:26:22.736] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:26:22.745] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:26:22.745] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 289 ms
+[2016-08-08 18:26:22.746] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":9220}}
+[2016-08-08 18:28:04.606] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:28:04.896] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:28:04.903] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:28:04.903] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 292 ms
+[2016-08-08 18:29:47.520] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:29:47.800] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:29:47.807] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:29:47.807] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 282 ms
+[2016-08-08 18:30:14.984] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:30:15.275] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:30:15.282] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:30:15.282] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 294 ms
+[2016-08-08 18:31:08.197] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:31:08.501] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:31:08.508] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:31:08.508] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 307 ms
+[2016-08-08 18:31:08.543] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":8964}}
+[2016-08-08 18:31:44.311] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:31:44.624] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:31:44.631] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:31:44.631] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 316 ms
+[2016-08-08 18:32:46.032] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:32:46.328] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:32:46.335] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:32:46.336] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 297 ms
+[2016-08-08 18:33:24.679] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:33:24.968] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:33:24.978] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:33:24.978] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 295 ms
+[2016-08-08 18:33:24.979] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":2904}}
+[2016-08-08 18:36:11.060] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-08 18:36:11.347] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-08 18:36:11.355] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-08 18:36:11.355] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 290 ms
+[2016-08-09 10:27:42.882] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:27:43.231] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:27:43.239] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:27:43.239] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 353 ms
+[2016-08-09 10:27:43.244] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":2212}}
+[2016-08-09 10:29:28.235] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:29:28.541] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:29:28.549] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:29:28.549] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 309 ms
+[2016-08-09 10:29:28.571] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":1580}}
+[2016-08-09 10:32:00.937] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:32:01.239] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:32:01.246] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:32:01.246] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 304 ms
+[2016-08-09 10:33:09.710] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:33:10.017] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:33:10.024] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:33:10.024] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 309 ms
+[2016-08-09 10:36:17.111] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:36:17.400] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:36:17.413] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:36:17.413] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 296 ms
+[2016-08-09 10:36:17.414] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6132}}
+[2016-08-09 10:36:17.448] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5048}}
+[2016-08-09 10:37:10.451] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:37:10.749] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:37:10.755] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:37:10.756] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 299 ms
+[2016-08-09 10:39:11.995] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:39:12.284] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:39:12.291] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:39:12.291] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 291 ms
+[2016-08-09 10:46:47.842] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:46:48.134] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:46:48.135] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5572}}
+[2016-08-09 10:46:48.148] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:46:48.148] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 302 ms
+[2016-08-09 10:46:48.166] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5616}}
+[2016-08-09 10:46:48.168] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":3220}}
+[2016-08-09 10:47:22.319] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:47:22.609] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:47:22.617] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:47:22.617] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 293 ms
+[2016-08-09 10:47:22.618] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5232}}
+[2016-08-09 10:47:22.620] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":5356}}
+[2016-08-09 10:47:54.559] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:47:54.870] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:47:54.878] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:47:54.878] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 314 ms
+[2016-08-09 10:49:35.449] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:49:35.752] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:49:35.760] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:49:35.760] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 307 ms
+[2016-08-09 10:50:33.988] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:50:34.278] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:50:34.285] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:50:34.285] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 293 ms
+[2016-08-09 10:51:16.975] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:51:17.261] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:51:17.268] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:51:17.268] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 288 ms
+[2016-08-09 10:52:39.692] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:52:39.988] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:52:39.996] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:52:39.996] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 300 ms
+[2016-08-09 10:52:39.998] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":3032}}
+[2016-08-09 10:52:40.001] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":2244}}
+[2016-08-09 10:53:38.078] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:53:38.385] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:53:38.392] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:53:38.392] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 310 ms
+[2016-08-09 10:55:14.937] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:55:15.219] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:55:15.231] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:55:15.232] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 290 ms
+[2016-08-09 10:55:15.233] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6376}}
+[2016-08-09 10:55:15.255] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6396}}
+[2016-08-09 10:55:15.261] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":6388}}
+[2016-08-09 10:56:18.251] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:56:18.536] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:56:18.544] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:56:18.544] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 288 ms
+[2016-08-09 10:58:54.299] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 10:58:54.580] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 10:58:54.588] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 10:58:54.588] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 284 ms
+[2016-08-09 11:01:05.573] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:01:05.872] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:01:05.880] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:01:05.880] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 302 ms
+[2016-08-09 11:01:05.884] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":6996}}
+[2016-08-09 11:02:49.740] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:02:50.039] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:02:50.049] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:02:50.049] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 305 ms
+[2016-08-09 11:02:50.070] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":3452}}
+[2016-08-09 11:05:33.734] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:05:34.047] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:05:34.055] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:05:34.055] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 311 ms
+[2016-08-09 11:05:34.072] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6504}}
+[2016-08-09 11:06:34.800] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:06:35.086] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:06:35.094] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:06:35.094] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 289 ms
+[2016-08-09 11:07:54.720] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:07:55.017] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:07:55.025] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:07:55.025] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 300 ms
+[2016-08-09 11:07:55.051] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":4932}}
+[2016-08-09 11:10:51.411] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:10:51.708] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:10:51.715] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:10:51.716] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 300 ms
+[2016-08-09 11:12:55.385] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:12:55.671] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:12:55.685] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:12:55.685] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 296 ms
+[2016-08-09 11:12:55.686] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":4996}}
+[2016-08-09 11:12:55.692] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6300}}
+[2016-08-09 11:12:55.717] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6676}}
+[2016-08-09 11:13:59.921] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:14:00.206] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:14:00.222] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:14:00.222] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 294 ms
+[2016-08-09 11:14:00.223] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":2604}}
+[2016-08-09 11:14:00.252] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":5052}}
+[2016-08-09 11:18:08.515] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:18:08.784] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:18:08.791] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:18:08.792] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 272 ms
+[2016-08-09 11:18:08.793] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":2684}}
+[2016-08-09 11:18:08.820] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6988}}
+[2016-08-09 11:18:08.862] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6944}}
+[2016-08-09 11:19:24.338] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:19:24.629] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:19:24.637] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:19:24.637] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 295 ms
+[2016-08-09 11:20:40.572] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:20:40.865] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:20:40.880] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:20:40.880] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 304 ms
+[2016-08-09 11:20:40.882] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6012}}
+[2016-08-09 11:21:21.498] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:21:21.791] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:21:21.798] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:21:21.799] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 297 ms
+[2016-08-09 11:22:07.162] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:22:07.455] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:22:07.462] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:22:07.462] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 296 ms
+[2016-08-09 11:23:16.715] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:23:17.000] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:23:17.007] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:23:17.007] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 288 ms
+[2016-08-09 11:37:32.696] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:37:32.995] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:37:33.004] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:37:33.005] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 305 ms
+[2016-08-09 11:37:33.006] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":5808}}
+[2016-08-09 11:37:33.033] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7028}}
+[2016-08-09 11:37:52.284] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:37:52.581] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:37:52.588] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:37:52.588] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 299 ms
+[2016-08-09 11:38:17.791] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:38:18.090] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:38:18.104] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:38:18.104] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 308 ms
+[2016-08-09 11:38:18.135] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":5808}}
+[2016-08-09 11:39:30.772] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:39:31.085] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:39:31.093] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:39:31.093] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 317 ms
+[2016-08-09 11:43:42.215] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:43:42.531] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:43:42.539] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:43:42.539] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 320 ms
+[2016-08-09 11:43:42.546] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":1976}}
+[2016-08-09 11:44:25.355] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:44:25.646] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:44:25.654] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:44:25.654] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 294 ms
+[2016-08-09 11:44:55.446] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:44:55.735] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:44:55.743] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:44:55.743] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 293 ms
+[2016-08-09 11:44:55.744] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5500}}
+[2016-08-09 11:44:55.781] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6296}}
+[2016-08-09 11:45:51.132] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:45:51.409] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:45:51.417] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:45:51.417] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 280 ms
+[2016-08-09 11:47:40.307] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:47:40.605] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:47:40.613] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:47:40.613] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 302 ms
+[2016-08-09 11:56:50.401] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:56:50.701] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:56:50.708] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:56:50.709] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 303 ms
+[2016-08-09 11:59:03.166] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 11:59:03.448] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 11:59:03.455] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 11:59:03.455] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 283 ms
+[2016-08-09 12:24:41.060] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 12:24:41.362] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 12:24:41.369] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 12:24:41.369] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 304 ms
+[2016-08-09 14:07:14.407] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:07:14.729] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:07:14.738] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:07:14.738] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 327 ms
+[2016-08-09 14:07:14.744] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6140}}
+[2016-08-09 14:08:52.409] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:08:52.723] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:08:52.732] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:08:52.732] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 319 ms
+[2016-08-09 14:08:52.735] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6596}}
+[2016-08-09 14:09:35.240] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:09:35.537] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:09:35.545] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:09:35.545] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 301 ms
+[2016-08-09 14:13:26.059] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:13:26.370] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:13:26.378] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:13:26.378] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 313 ms
+[2016-08-09 14:13:26.402] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5604}}
+[2016-08-09 14:15:33.218] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:15:33.525] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:15:33.533] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:15:33.533] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 311 ms
+[2016-08-09 14:15:33.534] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8120}}
+[2016-08-09 14:15:33.536] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":4428}}
+[2016-08-09 14:16:23.363] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:16:23.672] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:16:23.681] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:16:23.681] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 314 ms
+[2016-08-09 14:17:09.004] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:17:09.299] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:17:09.306] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:17:09.306] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 298 ms
+[2016-08-09 14:20:03.175] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:20:03.478] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:20:03.490] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:20:03.490] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 301 ms
+[2016-08-09 14:20:03.520] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7528}}
+[2016-08-09 14:21:00.183] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:21:00.486] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:21:00.494] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:21:00.494] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 306 ms
+[2016-08-09 14:25:26.668] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:25:26.954] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:25:26.964] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:25:26.964] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 292 ms
+[2016-08-09 14:25:26.965] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":7848}}
+[2016-08-09 14:25:26.971] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5668}}
+[2016-08-09 14:25:27.011] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7308}}
+[2016-08-09 14:28:40.692] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:28:40.993] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:28:41.001] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:28:41.001] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 305 ms
+[2016-08-09 14:35:41.923] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:35:42.215] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:35:42.223] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:35:42.223] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 295 ms
+[2016-08-09 14:35:42.225] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":7000}}
+[2016-08-09 14:35:42.252] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":848}}
+[2016-08-09 14:36:46.403] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:36:46.712] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:36:46.720] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:36:46.720] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 312 ms
+[2016-08-09 14:37:32.547] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:37:32.854] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:37:32.861] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:37:32.861] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 309 ms
+[2016-08-09 14:38:58.270] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:38:58.567] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:38:58.574] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:38:58.574] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 300 ms
+[2016-08-09 14:42:15.587] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:42:15.882] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:42:15.890] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:42:15.890] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 299 ms
+[2016-08-09 14:43:07.411] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:43:07.721] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:43:07.729] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:43:07.729] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 312 ms
+[2016-08-09 14:43:35.274] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:43:35.562] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:43:35.569] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:43:35.569] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 290 ms
+[2016-08-09 14:43:58.201] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:43:58.519] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:43:58.527] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:43:58.528] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 323 ms
+[2016-08-09 14:43:58.529] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8484}}
+[2016-08-09 14:43:58.593] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":8516}}
+[2016-08-09 14:43:58.612] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":8524}}
+[2016-08-09 14:44:24.717] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:44:25.005] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:44:25.013] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:44:25.013] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 290 ms
+[2016-08-09 14:44:25.014] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":8416}}
+[2016-08-09 14:44:25.027] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8396}}
+[2016-08-09 14:45:12.012] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:45:12.304] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:45:12.311] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:45:12.312] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 295 ms
+[2016-08-09 14:47:49.365] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:47:49.666] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:47:49.673] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:47:49.673] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 304 ms
+[2016-08-09 14:51:34.509] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:51:34.808] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:51:34.816] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:51:34.816] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 302 ms
+[2016-08-09 14:51:34.817] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":8588}}
+[2016-08-09 14:51:34.841] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":2628}}
+[2016-08-09 14:51:34.851] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5416}}
+[2016-08-09 14:52:59.145] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 14:52:59.433] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 14:52:59.441] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 14:52:59.441] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 291 ms
+[2016-08-09 15:25:35.377] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 15:25:35.670] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 15:25:35.677] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 15:25:35.677] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 296 ms
+[2016-08-09 15:27:55.066] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 15:27:55.368] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 15:27:55.378] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 15:27:55.378] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 307 ms
+[2016-08-09 15:27:55.379] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5520}}
+[2016-08-09 15:27:55.430] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":5972}}
+[2016-08-09 15:30:07.632] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 15:30:07.931] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 15:30:07.947] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 15:30:07.948] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 311 ms
+[2016-08-09 15:30:07.950] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":6852}}
+[2016-08-09 15:30:07.955] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":5960}}
+[2016-08-09 15:30:07.969] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7000}}
+[2016-08-09 15:37:49.771] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 15:37:50.082] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 15:37:50.090] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 15:37:50.090] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 314 ms
+[2016-08-09 15:38:51.442] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 15:38:51.754] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 15:38:51.762] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 15:38:51.762] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 309 ms
+[2016-08-09 15:38:51.801] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5940}}
+[2016-08-09 15:43:16.813] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 15:43:17.119] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 15:43:17.126] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 15:43:17.126] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 308 ms
+[2016-08-09 16:02:20.919] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:02:21.226] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:02:21.234] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:02:21.234] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 309 ms
+[2016-08-09 16:02:21.257] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":8628}}
+[2016-08-09 16:08:05.211] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:08:05.501] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:08:05.511] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:08:05.512] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 297 ms
+[2016-08-09 16:08:05.515] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6516}}
+[2016-08-09 16:08:05.521] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":8312}}
+[2016-08-09 16:10:16.135] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:10:16.444] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:10:16.452] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:10:16.452] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 313 ms
+[2016-08-09 16:10:16.453] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":6220}}
+[2016-08-09 16:10:16.505] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":8332}}
+[2016-08-09 16:11:40.730] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:11:41.049] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:11:41.056] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:11:41.057] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 321 ms
+[2016-08-09 16:12:41.120] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:12:41.409] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:12:41.420] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:12:41.421] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 295 ms
+[2016-08-09 16:12:41.422] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":8564}}
+[2016-08-09 16:12:41.434] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":9596}}
+[2016-08-09 16:12:41.462] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":3300}}
+[2016-08-09 16:13:05.345] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:13:05.654] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:13:05.662] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:13:05.662] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 313 ms
+[2016-08-09 16:14:46.410] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:14:46.710] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:14:46.717] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:14:46.718] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 303 ms
+[2016-08-09 16:18:03.983] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:18:04.290] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:18:04.297] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:18:04.297] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 310 ms
+[2016-08-09 16:20:47.856] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:20:48.149] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:20:48.157] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:20:48.157] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 297 ms
+[2016-08-09 16:24:59.107] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:24:59.354] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:24:59.362] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:24:59.362] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 248 ms
+[2016-08-09 16:30:18.504] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-09 16:30:18.823] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-09 16:30:18.833] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-09 16:30:18.833] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 325 ms
+[2016-08-09 16:30:18.834] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"connector-server-1","host":"10.0.0.67","port":4050,"clientPort":3050,"frontend":"true","serverType":"connector","pid":7400}}
+[2016-08-09 16:30:18.887] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"10.0.0.67","clientPort":3014,"frontend":"true","serverType":"gate","pid":7048}}
