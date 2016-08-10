@@ -35,11 +35,11 @@ WolfRemote.prototype.add = function(uid, sid, name, flag, cb) {
             if (!!r[name][username]) {
                 console.log("cao")
             } else {
-                r[name][username] = { position: null }
+                r[name][username] = { position: null, ready: false }
             }
         } else {
             r[name] = {};
-            r[name][username] = { position: null }
+            r[name][username] = { position: null, ready: false }
         }
         r = JSON.stringify(r);
         fs.writeFile(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), r, { encoding: 'utf8' }, function(e, r) {
@@ -79,7 +79,7 @@ WolfRemote.prototype.get = function(name, flag) {
         users[i] = users[i].split('*')[0];
         var username = users[i];
         if (!!r[name][username]) {
-            users[i] = users[i] + '*' + (r[name][username]["position"]);
+            users[i] = users[i] + '*' + (r[name][username]["position"]) + '*' + (r[name][username]["ready"]);
         }
     }
     return users;
@@ -111,8 +111,10 @@ WolfRemote.prototype.kick = function(uid, sid, name) {
     if (!!r[name][username]) {
         param.user = param.user + "*" + r[name][username]["position"]
         delete r[name][username];
-        console.log(r)
+        if (JSON.stringify(r[name]) == "{}") { delete r[name] }
+
     }
+
     fs.writeFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), JSON.stringify(r));
     channel.pushMessage(param);
 };
@@ -124,9 +126,12 @@ WolfRemote.prototype.sit = function(uid, sid, name, flag, position, cb) {
     var username = uid.split('*')[0];
     var leave = null;
     var r;
+    toggleReady(name, username, false);
     r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8')
     r = JSON.parse(r);
-    if (!!r[name][username]) { leave = r[name][username]["position"] }
+    if (!!r[name][username]) {
+        leave = r[name][username]["position"]
+    }
     r[name][username]["position"] = position;
     fs.writeFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), JSON.stringify(r));
     var param = {
@@ -135,7 +140,37 @@ WolfRemote.prototype.sit = function(uid, sid, name, flag, position, cb) {
         position: position,
         leave: leave
     };
-    console.log(param)
+
     channel.pushMessage(param);
     cb();
+}
+WolfRemote.prototype.ready = function(uid, sid, name, flag, cb) {
+    var channel = this.channelService.getChannel(name, flag);
+    var username = uid.split('*')[0];
+    var param = {
+        route: 'onReady',
+        user: username,
+        ready: null
+    };
+    toggleReady(name, username, "toggle");
+    r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8')
+    r = JSON.parse(r);
+    if (!!r[name][username]) {
+        param.user = param.user + "*" + r[name][username]["position"]
+        param.ready = r[name][username]["ready"]
+    }
+    channel.pushMessage(param);
+    cb();
+}
+
+
+var toggleReady = function(name, username, type) {
+    r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8');
+    r = JSON.parse(r);
+    if (type == "toggle") {
+        r[name][username]["ready"] = !r[name][username]["ready"]
+    } else {
+        r[name][username]["ready"] = type;
+    }
+    fs.writeFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), JSON.stringify(r));
 }

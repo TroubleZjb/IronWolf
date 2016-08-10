@@ -52,7 +52,7 @@ handler.enter = function(msg, session, next) {
 handler.sit = function(msg, session, next) {
     var self = this;
     var rid = msg.rid;
-    var uid = msg.username + '*' + rid
+    var uid = msg.username + '*' + rid;
     var position = msg.position;
     var sessionService = self.app.get('sessionService');
     self.app.rpc.wolf.wolfRemote.sit(session, uid, self.app.get('serverId'), rid, true, position, function() {
@@ -61,7 +61,15 @@ handler.sit = function(msg, session, next) {
 }
 
 
-
+handler.ready = function(msg, session, next) {
+    var self = this;
+    var rid = msg.rid;
+    var uid = msg.username + '*' + rid;
+    var sessionService = self.app.get('sessionService');
+    self.app.rpc.wolf.wolfRemote.ready(session, uid, self.app.get('serverId'), rid, true, function() {
+        next(null, "ready");
+    });
+}
 
 
 /**

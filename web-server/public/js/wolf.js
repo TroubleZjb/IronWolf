@@ -73,17 +73,20 @@ function queryEntry(uid, callback) {
 };
 //
 function playerSit(player, position, leave) {
-
     var p_box = "p" + position;
     var leave_box = "p" + leave;
     $("#" + p_box).find(".player-number").text(p_box + ":" + player);
     $("#" + p_box).removeClass("player-empty");
     $("#" + p_box).addClass("player-ready");
+    $("#" + p_box).addClass("player-ready-false");
     $("#" + p_box + ">a").remove();
     $("#" + p_box).off("click");
     $("#" + leave_box).find(".player-number").text(leave_box);
     $("#" + leave_box).removeClass("player-ready");
     $("#" + leave_box).addClass("player-empty");
+    $("#" + leave_box).removeClass("player-ready-false");
+    $("#" + leave_box).removeClass("player-ready-true");
+    console.log("sitremove")
     var a = document.createElement("a");
     a.innerHTML = "点击坐下";
     $("#" + leave_box).append(a);
@@ -94,10 +97,40 @@ function playerSit(player, position, leave) {
             username: username,
             rid: rid,
             position: position
-        }, function() {})
+        }, function() {
+            resetBtnReady();
+        })
     })
-    console.log(player, position, leave)
+    var arrow = document.createElement("div");
+    arrow.setAttribute("class", "player-current-arrow")
+    $("#" + p_box).append(arrow);
 }
+//
+function resetBtnReady() {
+    $(".btn-ready").remove();
+    var btnReady = document.createElement("div");
+    btnReady.innerHTML = "准备";
+    btnReady.setAttribute("class", "btn btn-ready btn-ready-false");
+    var append = document.getElementById("center-center").appendChild(btnReady);
+    $(".btn-ready").on("click", function() {
+        var route = "connector.entryHandler.ready";
+        pomelo.request(route, {
+            username: username,
+            rid: rid
+        }, function(data) {
+            console.log(data)
+            if ($(".btn-ready").hasClass("btn-ready-true")) {
+                $(".btn-ready").addClass("btn-ready-false").removeClass("btn-ready-true");
+            } else if ($(".btn-ready").hasClass("btn-ready-false")) {
+                $(".btn-ready").addClass("btn-ready-true").removeClass("btn-ready-false");
+            }
+        })
+
+    })
+}
+
+
+
 
 function load() {
     // 点击坐下
@@ -151,6 +184,10 @@ $(document).ready(function() {
         var leave = data.leave;
         playerSit(user, position, leave);
     });
+    pomelo.on('onReady', function(data) {
+        var user = data.user;
+        $("#p" + user.split('*')[1]).addClass("player-ready-" + data.ready).removeClass("player-ready-" + !data.ready);
+    })
 
     //handle disconect message, occours when the client is disconnect with servers
     pomelo.on('disconnect', function(reason) {
@@ -164,7 +201,9 @@ $(document).ready(function() {
             username: username,
             rid: rid,
             position: position
-        }, function() {})
+        }, function(data) {
+            resetBtnReady();
+        })
     })
 
     //deal with login button click.
@@ -201,6 +240,8 @@ $(document).ready(function() {
                     $("#login-layer").hide()
                     for (var i = 0; i < data.users.length; i++) {
                         playerSit(data.users[i].split('*')[0], data.users[i].split('*')[1], null);
+                        var user = data.users[i];
+                        $("#p" + user.split('*')[1]).addClass("player-ready-" + user.split('*')[2]).removeClass("player-ready-" + !(user.split('*')[2] == 'true'));
                     }
                 });
             });

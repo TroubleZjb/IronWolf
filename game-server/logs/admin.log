@@ -1,0 +1,1 @@
+[2016-08-10 18:55:41.498] [INFO] admin-log - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\master\master.js] [39m{"action":"execute","moduleId":"__console__","method":"clientHandler","msg":{"signal":"stop","ids":[],"clientId":"pomelo_terminal_1470826541373","username":"admin"}}
