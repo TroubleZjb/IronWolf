@@ -18,6 +18,15 @@ body {
     -ms-user-select: none;
     /*早期浏览器*/
     user-select: none;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+
+*:hover {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
 }
 
 .container {
@@ -170,9 +179,26 @@ body {
     margin: -8px -50px;
     text-align: center;
     left: 51px;
-    top: -18px;
     color: #fff;
     font-weight: 600;
+}
+
+#p1>.player-number,
+#p2>.player-number,
+#p3>.player-number,
+#p4>.player-number,
+#p5>.player-number,
+#p6>.player-number,
+#p10>.player-number,
+#p11>.player-number,
+#p12>.player-number {
+    top: -18px;
+}
+
+#p7>.player-number,
+#p8>.player-number,
+#p9>.player-number {
+    bottom: -18px;
 }
 
 #l-t,
@@ -281,6 +307,9 @@ body {
     height: 30px;
     width: 100px;
     border-radius: 5px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
 }
 
 .btn-ready-false {
@@ -310,13 +339,49 @@ body {
 }
 
 #p1>.player-current-arrow,
-#p1>.player-current-arrow,
-#p1>.player-current-arrow {
-    border-top: 15px solid rgba(255, 255, 255, 0);
-    border-right: 8px solid rgba(255, 255, 255, 0);
-    border-bottom: 15px solid rgb(255, 255, 255);
-    border-left: 8px solid rgba(255, 255, 255, 0);
+#p2>.player-current-arrow,
+#p3>.player-current-arrow {
+    border-top: 15px solid rgba(0, 200, 255, 0);
+    border-right: 8px solid rgba(0, 200, 255, 0);
+    border-bottom: 15px solid rgb(0, 200, 255);
+    border-left: 8px solid rgba(0, 200, 255, 0);
     margin: -15px -8px;
     left: 50%;
     bottom: -10px;
+}
+
+#p4>.player-current-arrow,
+#p5>.player-current-arrow,
+#p6>.player-current-arrow {
+    border-left: 15px solid rgba(0, 200, 255, 0);
+    border-bottom: 8px solid rgba(0, 200, 255, 0);
+    border-right: 15px solid rgb(0, 200, 255);
+    border-top: 8px solid rgba(0, 200, 255, 0);
+    margin: -8px -15px;
+    top: 50%;
+    right: -10px;
+}
+
+#p7>.player-current-arrow,
+#p8>.player-current-arrow,
+#p9>.player-current-arrow {
+    border-top: 15px solid rgb(0, 200, 255);
+    border-right: 8px solid rgba(0, 200, 255, 0);
+    border-bottom: 15px solid rgba(0, 200, 255, 0);
+    border-left: 8px solid rgba(0, 200, 255, 0);
+    margin: -15px -8px;
+    left: 50%;
+    top: -10px;
+}
+
+#p10>.player-current-arrow,
+#p11>.player-current-arrow,
+#p12>.player-current-arrow {
+    border-left: 15px solid rgb(0, 200, 255);
+    border-bottom: 8px solid rgba(0, 200, 255, 0);
+    border-right: 15px solid rgba(0, 200, 255, 0);
+    border-top: 8px solid rgba(0, 200, 255, 0);
+    margin: -8px -15px;
+    top: 50%;
+    left: -10px;
 }

@@ -106,7 +106,7 @@ WolfRemote.prototype.kick = function(uid, sid, name) {
         route: 'onLeave',
         user: username
     };
-    r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8')
+    var r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8')
     r = JSON.parse(r);
     if (!!r[name][username]) {
         param.user = param.user + "*" + r[name][username]["position"]
@@ -146,12 +146,14 @@ WolfRemote.prototype.sit = function(uid, sid, name, flag, position, cb) {
 }
 WolfRemote.prototype.ready = function(uid, sid, name, flag, cb) {
     var channel = this.channelService.getChannel(name, flag);
+    var channelService = this.channelService;
     var username = uid.split('*')[0];
     var param = {
         route: 'onReady',
         user: username,
         ready: null
     };
+    var r;
     toggleReady(name, username, "toggle");
     r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8')
     r = JSON.parse(r);
@@ -159,13 +161,50 @@ WolfRemote.prototype.ready = function(uid, sid, name, flag, cb) {
         param.user = param.user + "*" + r[name][username]["position"]
         param.ready = r[name][username]["ready"]
     }
+
     channel.pushMessage(param);
+
+
+    //is All Ready
+    var c_position = 0;
+    var c_ready = 0;
+    var readyplayers = [];
+
+    for (var i in r[name]) {
+        if (!!r[name][i].position) {
+            c_position++
+        }
+        if (r[name][i].ready) {
+            c_ready++;
+            r[name][i].name = i;
+            readyplayers.push(r[name][i]);
+        }
+
+    }
+    if (c_ready == c_position) {
+        var playData = {};
+        var roles = [];
+        var roleData = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/playerRoles.json'), 'utf-8')
+        roleData = JSON.parse(roleData);
+        roleData = roleData[(readyplayers.length).toString()];
+        for (var i = 0; i < readyplayers.length; i++) {
+            var length = roleData.length;
+            var roleIndex = parseInt(length * Math.random());
+            var role = roleData.splice(roleIndex, 1)[0];
+            var param = {
+                route: 'onStart',
+                position: readyplayers[i].position,
+                role: role
+            }
+            channelService.pushMessageByUids("onStart", param, [{ uid: readyplayers[i].name + '*' + uid.split('*')[1], sid: sid }])
+        }
+    }
     cb();
 }
 
 
 var toggleReady = function(name, username, type) {
-    r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8');
+    var r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8');
     r = JSON.parse(r);
     if (type == "toggle") {
         r[name][username]["ready"] = !r[name][username]["ready"]

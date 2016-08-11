@@ -97,13 +97,17 @@ function playerSit(player, position, leave) {
             username: username,
             rid: rid,
             position: position
-        }, function() {
+        }, function(data) {
             resetBtnReady();
+            var p_box = "p" + data;
+            var arrow = document.createElement("div");
+            $(".player-current-arrow").remove();
+            arrow.setAttribute("class", "player-current-arrow")
+            $("#" + p_box).append(arrow);
+
         })
     })
-    var arrow = document.createElement("div");
-    arrow.setAttribute("class", "player-current-arrow")
-    $("#" + p_box).append(arrow);
+
 }
 //
 function resetBtnReady() {
@@ -121,8 +125,10 @@ function resetBtnReady() {
             console.log(data)
             if ($(".btn-ready").hasClass("btn-ready-true")) {
                 $(".btn-ready").addClass("btn-ready-false").removeClass("btn-ready-true");
+                $(".btn-ready").html("准备");
             } else if ($(".btn-ready").hasClass("btn-ready-false")) {
                 $(".btn-ready").addClass("btn-ready-true").removeClass("btn-ready-false");
+                $(".btn-ready").html("取消准备");
             }
         })
 
@@ -165,8 +171,7 @@ $(document).ready(function() {
     //update user list
     pomelo.on('onAdd', function(data) {
         var user = data.user;
-        console.log(data)
-        tip('online', user);
+        // console.log(data)
         addUser(user);
     });
 
@@ -189,6 +194,15 @@ $(document).ready(function() {
         $("#p" + user.split('*')[1]).addClass("player-ready-" + data.ready).removeClass("player-ready-" + !data.ready);
     })
 
+    pomelo.on('onStart', function(data) {
+        console.log(data)
+        var position=data.position;
+        var role=data.role;
+        $(".btn-ready").remove();
+        $("#center-center").css("background","url(../image/player-"+role+".jpg) no-repeat center center /350px")
+    });
+
+
     //handle disconect message, occours when the client is disconnect with servers
     pomelo.on('disconnect', function(reason) {
         // showLogin();
@@ -203,6 +217,12 @@ $(document).ready(function() {
             position: position
         }, function(data) {
             resetBtnReady();
+            var p_box = "p" + data;
+            var arrow = document.createElement("div");
+            $(".player-current-arrow").remove();
+            arrow.setAttribute("class", "player-current-arrow")
+            $("#" + p_box).append(arrow);
+
         })
     })
 

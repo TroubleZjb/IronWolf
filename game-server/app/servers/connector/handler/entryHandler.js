@@ -56,7 +56,7 @@ handler.sit = function(msg, session, next) {
     var position = msg.position;
     var sessionService = self.app.get('sessionService');
     self.app.rpc.wolf.wolfRemote.sit(session, uid, self.app.get('serverId'), rid, true, position, function() {
-        next(null, "sit");
+        next(null, position);
     });
 }
 
