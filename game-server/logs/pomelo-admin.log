@@ -947,3 +947,11 @@
 [2016-08-12 15:37:43.703] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "wolf", "127.0.0.1", 3005
 [2016-08-12 15:37:43.701] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "gate", "127.0.0.1", 3005
 [2016-08-12 15:37:43.715] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2016-08-12 18:15:46.399] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2016-08-12 18:15:46.747] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2016-08-12 18:15:46.762] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2016-08-12 18:15:46.767] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "wolf", "127.0.0.1", 3005
+[2016-08-12 18:16:22.119] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2016-08-12 18:16:22.466] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "wolf", "127.0.0.1", 3005
+[2016-08-12 18:16:22.469] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2016-08-12 18:16:22.483] [INFO] pomelo-admin - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\node_modules\pomelo-admin\lib\consoleService.js] [39mtry to connect master: "connector", "127.0.0.1", 3005

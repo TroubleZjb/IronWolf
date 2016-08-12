@@ -385,3 +385,12 @@
 [2016-08-12 15:38:10.694] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\common\service\sessionService.js] [39msession on [connector-server-1] is closed with session id: 4
 [2016-08-12 15:38:10.698] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\common\remote\frontend\channelRemote.js] [39m[connector-server-1] pushMessage uids: ["3*3"], msg: {"route":"onLeave","user":"333*4"}, sids: [1]
 [2016-08-12 15:38:10.698] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: null, route: onLeave, msg: {"route":"onLeave","user":"333*4"}, receivers: [1], opts: {"type":"push","userOptions":{},"isPush":true}
+[2016-08-12 18:15:46.542] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2016-08-12 18:15:46.818] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2016-08-12 18:15:46.822] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2016-08-12 18:15:46.822] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 220 ms
+[2016-08-12 18:15:46.823] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"wolf-server-1","host":"127.0.0.1","port":6050,"serverType":"wolf","pid":8852}}
+[2016-08-12 18:16:22.255] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2016-08-12 18:16:22.541] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2016-08-12 18:16:22.547] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2016-08-12 18:16:22.547] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 231 ms
