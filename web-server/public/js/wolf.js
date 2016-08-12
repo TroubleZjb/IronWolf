@@ -196,10 +196,11 @@ $(document).ready(function() {
 
     pomelo.on('onStart', function(data) {
         console.log(data)
-        var position=data.position;
-        var role=data.role;
+        var position = data.position;
+        var role = data.role;
         $(".btn-ready").remove();
-        $("#center-center").css("background","url(../image/player-"+role+".jpg) no-repeat center center /350px")
+        $("#center-center").css("background", "url(../image/player-" + role + ".jpg) no-repeat center center /350px");
+        $("#p" + position).css("background", "url(../image/player-" + role + ".jpg) no-repeat center center /100px")
     });
 
 
@@ -267,6 +268,15 @@ $(document).ready(function() {
             });
         });
     });
+    //deal with game playing
+    pomelo.on('onWolf', function(data) {
+        for (var i = 0; i < data.players.length; i++) {
+            $("#p" + players[i].position).on("click", function() {
+                var position = $(this)[0].id.replace("p", "");
+            })
+        }
+    })
+
 
     // //deal with chat mode.
     // $("#entry").keypress(function(e) {

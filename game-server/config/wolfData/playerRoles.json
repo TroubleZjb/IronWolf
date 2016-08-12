@@ -4,5 +4,13 @@
     "10": ["seer", "witch", "hunter", "civilian", "civilian", "civilian", "civilian", "wolf", "wolf", "wolf"],
     "9": ["seer", "witch", "hunter", "civilian", "civilian", "civilian", "wolf", "wolf", "wolf"],
     "8": ["seer", "witch", "civilian", "civilian", "civilian", "wolf", "wolf", "wolf"],
-    "7": ["seer", "witch", "civilian", "civilian", "civilian", "wolf", "wolf"]
+    "7": ["seer", "witch", "civilian", "civilian", "civilian", "wolf", "wolf"],
+    "order": {
+        "12": ["wolf", "witch", "seer"],
+        "11": ["wolf", "witch", "seer"],
+        "10": ["wolf", "witch", "seer"],
+        "9": ["wolf", "witch", "seer"],
+        "8": ["wolf", "witch", "seer"],
+        "7": ["wolf", "witch", "seer"]
+    }
 }

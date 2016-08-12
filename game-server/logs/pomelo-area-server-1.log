@@ -826,3 +826,9 @@
 [2016-08-11 16:13:08.526] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
 [2016-08-11 16:13:08.526] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 423 ms
 [2016-08-11 16:13:08.617] [DEBUG] pomelo - [36m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[area-server-1] receive addServer signal: {"action":"addServer","server":{"main":"E:\\mypro\\IronWolf\\game-server\\app.js","env":"development","id":"gate-server-1","host":"10.0.0.67","clientPort":3014,"frontend":"true","serverType":"gate","pid":10376}}
+[2016-08-12 10:09:55.977] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-12 10:09:56.271] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" enter after start...
+[2016-08-12 10:09:56.278] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" finish start
+[2016-08-12 10:09:56.278] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39m"area-server-1" startup in 296 ms
+[2016-08-12 11:28:48.101] [INFO] pomelo - [32m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "area-server-1"
+[2016-08-12 11:29:09.342] [ERROR] pomelo - [31m[E:\mypro\IronWolf\game-server\node_modules\pomelo\lib\util\appUtil.js] [39mfail to operate component, method: start, err: "Error: connect ETIMEDOUT 122.228.19.57:3005\n    at Object.exports._errnoException (util.js:870:11)\n    at exports._exceptionWithHostPort (util.js:893:20)\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)"

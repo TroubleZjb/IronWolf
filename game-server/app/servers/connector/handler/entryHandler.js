@@ -83,6 +83,5 @@ var onUserLeave = function(app, session) {
     if (!session || !session.uid) {
         return;
     }
-    console.log("close")
     app.rpc.wolf.wolfRemote.kick(session, session.uid, app.get('serverId'), session.get('rid'), null);
 };
