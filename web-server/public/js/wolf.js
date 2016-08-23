@@ -55,7 +55,7 @@ function addPlayer(player) {
 function queryEntry(uid, callback) {
     var route = 'gate.gateHandler.queryEntry';
     pomelo.init({
-        host: window.location.hostname,
+        host: "120.132.2.226",
         port: 3014,
         log: true
     }, function() {
@@ -152,7 +152,7 @@ function whenLogin() {
     //query entry of connection
     queryEntry(username, function(host, port) {
         pomelo.init({
-            host: window.location.hostname,
+            host: "120.132.2.226",
             port: port,
             log: true
         }, function() {
