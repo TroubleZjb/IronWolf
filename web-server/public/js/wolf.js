@@ -135,7 +135,46 @@ function resetBtnReady() {
     })
 }
 
+function whenLogin() {
+    username = $("#login-username").val();
+    rid = $("#login-room").val();
 
+    // if (username.length > 20 || username.length == 0 || rid.length > 20 || rid.length == 0) {
+    //     showError(LENGTH_ERROR);
+    //     return false;
+    // }
+
+    // if (!reg.test(username) || !reg.test(rid)) {
+    //     showError(NAME_ERROR);
+    //     return false;
+    // }
+
+    //query entry of connection
+    queryEntry(username, function(host, port) {
+        pomelo.init({
+            host: window.location.hostname,
+            port: port,
+            log: true
+        }, function() {
+            var route = "connector.entryHandler.enter";
+            pomelo.request(route, {
+                username: username,
+                rid: rid
+            }, function(data) {
+                if (data.error) {
+                    showError(DUPLICATE_ERROR);
+                    return;
+                }
+                $("#login-layer").hide()
+                for (var i = 0; i < data.users.length; i++) {
+                    playerSit(data.users[i].split('*')[0], data.users[i].split('*')[1], null);
+                    var user = data.users[i];
+                    $("#p" + user.split('*')[1]).addClass("player-ready-" + user.split('*')[2]).removeClass("player-ready-" + !(user.split('*')[2] == 'true'));
+                }
+            });
+        });
+    });
+}
 
 
 function load() {
@@ -158,7 +197,15 @@ function load() {
 //加载
 $(document).ready(function() {
     //when first time into chat room.
-    $("#login-layer").show()
+    $("#login-layer").show();
+    $("#login-username").focus();
+    $("#login-layer").keypress(function(e) {
+        if (e.keyCode != 13) {
+            return
+        } else {
+            whenLogin();
+        }
+    })
     load();
     // //wait message from the server.
     // pomelo.on('onChat', function(data) {
@@ -228,50 +275,12 @@ $(document).ready(function() {
     })
 
     //deal with login button click.
-    $("#login-layer>div>button").click(function() {
-        username = $("#login-username").val();
-        rid = $("#login-room").val();
-
-        // if (username.length > 20 || username.length == 0 || rid.length > 20 || rid.length == 0) {
-        //     showError(LENGTH_ERROR);
-        //     return false;
-        // }
-
-        // if (!reg.test(username) || !reg.test(rid)) {
-        //     showError(NAME_ERROR);
-        //     return false;
-        // }
-
-        //query entry of connection
-        queryEntry(username, function(host, port) {
-            pomelo.init({
-                host: host,
-                port: port,
-                log: true
-            }, function() {
-                var route = "connector.entryHandler.enter";
-                pomelo.request(route, {
-                    username: username,
-                    rid: rid
-                }, function(data) {
-                    if (data.error) {
-                        showError(DUPLICATE_ERROR);
-                        return;
-                    }
-                    $("#login-layer").hide()
-                    for (var i = 0; i < data.users.length; i++) {
-                        playerSit(data.users[i].split('*')[0], data.users[i].split('*')[1], null);
-                        var user = data.users[i];
-                        $("#p" + user.split('*')[1]).addClass("player-ready-" + user.split('*')[2]).removeClass("player-ready-" + !(user.split('*')[2] == 'true'));
-                    }
-                });
-            });
-        });
-    });
+    $("#login-layer>div>button").click(whenLogin());
     //deal with game playing
     pomelo.on('onWolf', function(data) {
+        console.log(data)
         for (var i = 0; i < data.players.length; i++) {
-            $("#p" + players[i].position).on("click", function() {
+            $("#p" + data.players[i].position).on("click", function() {
                 var position = $(this)[0].id.replace("p", "");
             })
         }

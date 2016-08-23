@@ -28,7 +28,7 @@ console.log("Web server has started.\nPlease log on http://127.0.0.1:3001/index.
 
 app.listen(3001);
 
-var dataDefault = {};
-dataDefault = JSON.stringify(dataDefault);
-fs.writeFile(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), dataDefault, { encoding: 'utf8' }, function(e, r) {})
-fs.writeFile(path.normalize(__dirname + '../../../../../config/wolfData/playData.json'), dataDefault, { encoding: 'utf8' }, function(e, r) {})
+// var dataDefault = {};
+// dataDefault = JSON.stringify(dataDefault);
+// fs.writeFile(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), dataDefault, { encoding: 'utf8' }, function(e, r) {})
+// fs.writeFile(path.normalize(__dirname + '../../../../../config/wolfData/playData.json'), dataDefault, { encoding: 'utf8' }, function(e, r) {})

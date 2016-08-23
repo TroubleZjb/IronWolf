@@ -214,14 +214,7 @@ WolfRemote.prototype.ready = function(uid, sid, name, flag, cb) {
             var roleChannel = channelService.getChannel(role + '*' + name, true);
             roleChannel.add(readyplayers[i].name + '*' + uid.split('*')[1], sid);
         }
-        playData = JSON.stringify(playData);
-        fs.writeFile(path.normalize(__dirname + '../../../../../config/wolfData/playData.json'), playData, { encoding: 'utf8' }, function(e, r) {
-            if (e) {
-                console.log(e)
-            } else {
-                console.log("write complete")
-            }
-        })
+        fs.writeFileSync(path.normalize(__dirname + '../../../../../config/wolfData/playData.json'), JSON.stringify(playData));
         var wolfChannel = self.channelService.getChannel("wolf" + '*' + name, false);
         var wolves = wolfChannel.getMembers();
         var r = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/wolfData.json'), 'utf-8')
@@ -234,17 +227,18 @@ WolfRemote.prototype.ready = function(uid, sid, name, flag, cb) {
                 role: "wolf"
             })
         }
-        wolfKill(name);
+        wolfKill(self,name);
     }
     cb();
 }
 
-var wolfKill = function(rid) {
+var wolfKill = function(self,rid) {
+    var players=[];
     var wolfChannel = self.channelService.getChannel("wolf" + '*' + rid, false);
     var playData = fs.readFileSync(path.normalize(__dirname + '../../../../../config/wolfData/playData.json'), 'utf-8');
     playData = JSON.parse(playData);
     for (var i = 0; i < playData[rid].live.length; i++) {
-        players.push({ name: playData[rid].live.name, position: playData[rid].live.position })
+        players.push({ name: playData[rid].live[i].username, position: playData[rid].live[i].position })
     }
     var param = {
         route: "onWolf",
