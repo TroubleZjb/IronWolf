@@ -246,7 +246,6 @@ $(document).ready(function() {
         var position = data.position;
         var role = data.role;
         $(".btn-ready").remove();
-        $("#center-center").css("background", "url(../image/player-" + role + ".jpg) no-repeat center center /350px");
         $("#p" + position).css("background", "url(../image/player-" + role + ".jpg) no-repeat center center /100px")
     });
 
@@ -275,7 +274,9 @@ $(document).ready(function() {
     })
 
     //deal with login button click.
-    $("#login-layer>div>button").click(whenLogin());
+    $("#login-layer>div>button").click(function() {
+        whenLogin()
+    });
     //deal with game playing
     pomelo.on('onWolf', function(data) {
         console.log(data)
